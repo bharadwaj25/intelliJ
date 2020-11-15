@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginTestCRM
 {
-
+    WebDriver driver;
     @Test
     public void loginApp() throws InterruptedException
     {
